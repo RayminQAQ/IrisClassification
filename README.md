@@ -44,5 +44,6 @@ pip install torch numpy scikit-learn matplotlib
 After running the multi-class classification model, you will get saved plots for various performance metrics like Accuracy, Precision, Recall, F1 Score, and AUC over epochs.
 
 ## Acknowledgements
-The Iris dataset is a well-known dataset in machine learning and is included as part of the sklearn datasets library.
-PyTorch is used as the primary deep learning framework for this project.
+- The Iris dataset is a well-known dataset in machine learning and is included as part of the sklearn datasets library.
+- PyTorch is used as the primary deep learning framework for this project.
+- Created for instructional purposes for the NTUAI club.
