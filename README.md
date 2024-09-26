@@ -26,7 +26,7 @@ pip install torch numpy scikit-learn matplotlib
 ```
 
 ## How to Run
-Binary Classification
+1. Binary Classification
 To run the binary classification model, execute the following command:
 
 ```bash
@@ -34,7 +34,7 @@ python IrisBinaryClassification.py
 ```
 The model will output accuracy, precision, recall, and AUC after training for a defined number of epochs.
 
-Multi-class Classification
+2. Multi-class Classification
 To run the multi-class classification model and plot the performance metrics:
 
 ```bash
