@@ -23,14 +23,16 @@ To run the projects, you need the following libraries installed:
 You can install the required libraries by running:
 ```bash
 pip install torch numpy scikit-learn matplotlib
+```
 
-How to Run
+### How to Run
 Binary Classification
 To run the binary classification model, execute the following command:
 
 ```bash
 python IrisBinaryClassification.py
 The model will output accuracy, precision, recall, and AUC after training for a defined number of epochs.
+```
 
 Multi-class Classification
 To run the multi-class classification model and plot the performance metrics:
@@ -38,6 +40,7 @@ To run the multi-class classification model and plot the performance metrics:
 ```bash
 python IrisMultiClassification.py
 The training will run for multiple epochs, and plots will be saved to the Result directory.
+```
 
 ## Results
 After running the multi-class classification model, you will get saved plots for various performance metrics like Accuracy, Precision, Recall, F1 Score, and AUC over epochs.
